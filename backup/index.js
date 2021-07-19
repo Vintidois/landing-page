@@ -3,16 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css'; // VAI RODAR
 import App from './App';
 import reportWebVitals from './reportWebVitals'; // VAI RODAR
-import Sobre from './pages/Sobre/index';
-import Landing from './pages/landing/index';
-
-
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Sobre></Sobre>
-    <App></App> */}
-    <Landing></Landing>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
